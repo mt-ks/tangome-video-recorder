@@ -12,4 +12,8 @@ HTTP live streaming (HLS) is a widely used video streaming protocol that can run
 
 ### Why did I do this project?
 
+
+https://github.com/mehmetbeyHZ/tangome-video-recorder/assets/12996462/3af0d4cd-cda3-4d2e-adea-caad74ac8425
+
+
 To record live broadcasts without ads or comments and to improve some of my skills.
