@@ -1,0 +1,5 @@
+./TangoMeChromeExtension/chromext/node_modules
+./TangoMeChromeExtension/chromext/node_modules/*
+./TangoSocketServer/node_modules
+./TangoSocketServer/node_modules/*
+./TangoSocketServer/assets/videos/*
