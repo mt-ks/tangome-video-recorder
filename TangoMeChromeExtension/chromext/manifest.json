@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "TangoClient",
+  "version": "1.0",
+  "description": "supertango client",
+  "permissions": [
+    "debugger",
+    "cookies",
+    "webRequest",
+    "tabs",
+    "activeTab",
+    "storage",
+    "https://proxycador-cdn.tango.me/*",
+    "https://cinema-eu.tango.me/*",
+    "*://*.tango.me/*",
+    "*://tango.me/*"
+  ],
+  "background": {
+    "scripts": ["socket.js", "background.js"]
+  },
+  "devtools_page": "devtools.html",
+  "minimum_chrome_version": "116",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.tango.me/*",
+        "*://tango.me/*",
+        "https://proxycador-cdn.tango.me/*",
+        "https://cinema-eu.tango.me/*"
+      ],
+      "js": ["hls.js", "jquery.js", "popup.js"]
+    }
+  ]
+}
